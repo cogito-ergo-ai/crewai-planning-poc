@@ -6,9 +6,9 @@ The system is made of two agents:
 
 # Requirements
 * [gpt4all](https://gpt4all.io/index.html), in particular you will need to download the embedding model **nomic-ai/nomic-embed-text-v1.5-GGUF**
-* [ollama](https://ollama.com), in particular you will need to download the LLM **mistral**
+* [ollama](https://ollama.com), in particular you will need to download the LLMs **mistral** and **llama3**
 * install the required python libraries by issuing the command **pip install -r requirements.txt**
-* get an api key from the [SERPER](https://serper.dev) service, you will need it to set the environment variable **SERPER_AI_KEY** in **run.sh**
+* get an api key from the [SERPER](https://serper.dev) service, you will need it to set the environment variable **SERPER_API_KEY** in **run.sh**
 
 # Run the example
 Just run the **run.sh** script
